@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:sans-serif
+}
+
+.container{
+    width:100%;
+    min-height: 100vh;
+    padding-left: 0%;
+    padding-right: 0%;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+/* Navigation Bar */
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #000000;
+    border-radius: 0px 0px 20px 20px;
+}
+.logo{
+    width:190px;
+    margin:30px 10;
+    cursor:pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-right: 52px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    font-family:inherit;
+    font-weight: 900;
+}
+
+nav ul li a:hover{
+    transition: 0.3s;
+    text-shadow: 2px 2px 6px rgb(250, 235, 195);
+}
+
+/* Product display */
+
+.main-container{
+    display: flex;
+}
+
+/* PRODUCT No 1 */
+
+.product1{
+    width: 400px;
+    height: 550px;
+    margin: 112px;
+    background: #6c757d;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product1 img{
+    width: 180px;
+    height: 220px;
+    margin: 10%;
+}
+.product1 div p{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product1 a button{
+    margin: 60px ;
+    border: 3px solid rgb(247, 245, 245);
+    display: flex;
+    border-radius: 20%;
+    font-size: 30px;
+    padding: 4%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.product1 button:hover{
+    background-color: #b32727; 
+    color: white;
+}
+
+
+/* PRODUCT no 2 */
+
+.product2{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
